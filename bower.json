@@ -1,0 +1,25 @@
+{
+  "name": "gity-app",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.1",
+    "angular-route": "^1.7.5",
+    "jquery": "^3.3.1",
+    "popper.js": "https://github.com/FezVrasta/popper.js.git#^1.14.6",
+    "bootstrap": "https://github.com/twbs/bootstrap.git#^4.1.3",
+    "angular-ui-router": "^1.0.20"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

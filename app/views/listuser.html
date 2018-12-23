@@ -1,0 +1,20 @@
+<p>This is the listuser view.{{myapp}}</p>
+
+<table class="table table-bordered">
+  <tr>
+    <th>id</th>
+    <th>name</th>
+    <th>family</th>
+    <th>email</th>
+  </tr>
+
+  <tr ng-repeat="user in users">
+    <td>{{user.id}}</td>
+    <td>{{user.name}}</td>
+    <td>{{user.family}}</td>
+    <td>{{user.mail}}</td>
+    <td><input type="button"  class="btn btn-danger" value="delete" ng-click="deleteusers(user.id)"/></td>
+    <td><input type="button"  class="btn btn-success" value="edit" ng-click="editusers(user.id)"/></td>
+  </tr>
+
+</table>
